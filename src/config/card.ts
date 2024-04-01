@@ -26,7 +26,7 @@ export type ModeControlObject = Record<string, boolean | ModeValue> & {
 }
 
 /**
- * Modes (hvac, fac, preset, swing)
+ * Modes (hvac, fan, preset, swing)
  * that might exist as attributes on a climate entity.
  * Modes can be set to a value based on a list of options
  * that are provided in the attributes of the entity.
